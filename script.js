@@ -10,7 +10,9 @@ function cleanInputString (str) {
     const strArray = str.split('');
     const cleanStrArray = [];
 
-    for (i = 0; )
+    for (let i = 0; i < strArray.length; i++) {
+
+    }
 }
 
 
