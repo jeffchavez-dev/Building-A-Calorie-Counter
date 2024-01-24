@@ -21,6 +21,8 @@ function cleanInputString (str) {
     // }
 }
 
-cleanInputString()
+function isInvalidInput(str) {
+    const regex = /e/i
+}
 
 
