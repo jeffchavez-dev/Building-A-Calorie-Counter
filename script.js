@@ -11,8 +11,8 @@ function cleanInputString (str) {
     const cleanStrArray = [];
 
     for (let i = 0; i < strArray.length; i++) {
-        if (!strArray.includes(["+", "-", " "])) {
-            console.log(strArray)
+        if (!["+", "-", " "].includes(strArray[i])) {
+            strArray[i].push(cleanStrArray)
         } else {
             strArray.push(cleanStrArray)
         }
