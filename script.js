@@ -12,7 +12,9 @@ function cleanInputString (str) {
 
     for (let i = 0; i < strArray.length; i++) {
         if (!strArray.includes(["+", "-", " "])) {
-            
+            console.log(strArray)
+        } else {
+            strArray.push(cleanStrArray)
         }
     }
 }
