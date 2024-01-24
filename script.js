@@ -12,7 +12,7 @@ function cleanInputString (str) {
 
     for (let i = 0; i < strArray.length; i++) {
         if (!["+", "-", " "].includes(strArray[i])) {
-            strArray[i].push(cleanStrArray)
+            cleanStrArray.push(strArray[i])
         } else {
             strArray.push(cleanStrArray)
         }
