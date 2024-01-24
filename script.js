@@ -27,3 +27,6 @@ function isInvalidInput(str) {
 }
 
 
+function addEntry() {
+    
+}
