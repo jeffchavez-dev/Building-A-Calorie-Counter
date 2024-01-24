@@ -29,5 +29,5 @@ function isInvalidInput(str) {
 
 
 function addEntry() {
-    
+    const targetId = "#" + entryDropdown.value 
 }
