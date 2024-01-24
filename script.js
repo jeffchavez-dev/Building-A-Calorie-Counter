@@ -7,6 +7,7 @@ const output = document.getElementById('output')
 let isError = false
 
 function cleanInputString (str) {
+    const regex = /hello/;
     const strArray = str.split('');
     const cleanStrArray = [];
 
@@ -17,5 +18,6 @@ function cleanInputString (str) {
     }
 }
 
+cleanInputString()
 
 
