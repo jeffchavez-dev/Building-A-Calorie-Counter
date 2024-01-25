@@ -38,5 +38,5 @@ function addEntry() {
         <input type="number" placeholder="Calories" min="0" id="${entryDropdown.value}-${entryNumber}-calories">
 
     `
-
+    targetInputContainer.innerHTML += HTMLString
 }
