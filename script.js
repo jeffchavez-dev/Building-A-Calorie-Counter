@@ -49,5 +49,9 @@ addEntryButton.addEventListener('click', addEntry)
 
 
 function getCaloriesFromInputs(list) {
-    
+    let calories = 0
+    let i;
+    for (i = 0; i < list.length; i++) {
+        const currVal = cleanInputString(list[i].value)
+    }
 }
