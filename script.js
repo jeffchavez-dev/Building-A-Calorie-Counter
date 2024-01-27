@@ -64,3 +64,7 @@ function getCaloriesFromInputs(list) {
     }
     return calories
 }
+
+function calculateCalories(e) {
+    
+}
