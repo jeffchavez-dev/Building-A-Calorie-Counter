@@ -62,4 +62,5 @@ function getCaloriesFromInputs(list) {
         }
         calories += Number(currVal)
     }
+    return calories
 }
