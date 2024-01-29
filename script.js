@@ -87,5 +87,5 @@ function calculateCalories(e) {
         return
     }
 
-    const consumedCalories = breakfastCalories + lunchCalories + dinnerCalories
+    const consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories
 }
