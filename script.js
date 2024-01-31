@@ -115,4 +115,4 @@ function clearForm() {
     output.classList.add('hide')
 }
 
-clearButton.addEventListener('click', clearForm)
+// clearButton.addEventListener('click', clearForm)
