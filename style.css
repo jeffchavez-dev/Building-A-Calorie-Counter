@@ -2,8 +2,8 @@
     --light-grey: #f5f6f7;
     --dark-blue: #0a0a23;
     --fcc-blue: #1b1b32;
-    --light-yellow: #fecc4c;
-    --dark-yellow: #feac32;
+    --light-yellow: #4cfe61;
+    --dark-yellow: #16c887;
     --light-pink: #ffadad;
     --dark-red: #850000;
     --light-green: #acd157;
@@ -19,7 +19,7 @@
     font-size: 18px;
     background-color: var(--fcc-blue);
     color: var(--light-grey);
-    z-index: 1;
+    z-index: 2;
   }
   .overlay {
     background-color: black;
@@ -33,6 +33,7 @@
   }
 
   main {
+    color: #fff;
     z-index: 1;
   }
   
